@@ -21,7 +21,7 @@ public class IntroLab {
      * @return A message using the given parameters.
      */
     public static String printLabMessage(String greeting, String name,
-                                  boolean likes_cats, String message) {
+                                         boolean likes_cats, String message) {
         String message_to_print = greeting + "! My name is " + name + "! ";
 
         if (likes_cats) {
@@ -48,10 +48,15 @@ public class IntroLab {
         return printLabMessage("Hello", "Stu Dent", true,
                 "Welcome to CSC207!");
     }
+    public static String khanar36() {
+        return printLabMessage("Hi", "Arsal", true,
+                "Nice to meet you!");
+    }
 
 
     public static void main(final String[] args) {
         System.out.println(exampleStudent());
+        System.out.println(khanar36());
 
         /* TODO: Add a call to the method you wrote in this main method,
          *        and print the results of it.
